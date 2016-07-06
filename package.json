@@ -25,5 +25,5 @@
     "url": "https://github.com/antialias/local-module-regex/issues"
   },
   "homepage": "https://github.com/antialias/local-module-regex#readme",
-  "description": ""
+  "description": "whitelist modules local to the current package in `.babelrc` or in your webpack loader config."
 }

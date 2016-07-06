@@ -1,12 +1,14 @@
-# why?
+## `local-module-regex`
+
+## why?
 
 Useful for whitelisting modules local to the current package in `.babelrc` or in your webpack loader config.
 
-# what's it do?
+## what's it do?
 
 Give it the path to the root of your package (`__dirname works well when run from the root of the package), and it will give you a regular expression that matches modules that are contained by that directory and are not in `node_modules`.
 
-# example usage
+## example usage
 
 ```js
 const localModuleRegexMaker = require('local-module-regex');
