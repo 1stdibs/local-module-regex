@@ -1,7 +1,6 @@
 {
   "name": "local-module-regex",
   "version": "1.0.1",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
@@ -14,5 +13,17 @@
   },
   "dependencies": {
     "escape-string-regexp": "^1.0.5"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antialias/local-module-regex.git"
+  },
+  "bugs": {
+    "url": "https://github.com/antialias/local-module-regex/issues"
+  },
+  "homepage": "https://github.com/antialias/local-module-regex#readme",
+  "description": ""
 }
